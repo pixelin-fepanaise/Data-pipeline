@@ -1,0 +1,11 @@
+simple-data-pipeline/
+├── app/
+│   ├── __init__.py
+│   ├── __main__.py          # ← NEW
+│   └── pipeline.py
+├── data/
+│   └── Medicaldataset.csv   # ← your raw file (Kaggle)
+├── .env.example             # ← NEW
+├── requirements.txt
+├── Dockerfile
+└── docker-compose.yml
